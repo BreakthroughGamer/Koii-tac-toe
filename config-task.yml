@@ -1,7 +1,7 @@
 # Name and metadata of your task
-task_name: 'task name'
-author: 'Koii'
-description: 'description'
+task_name: 'Koii-Tac-Toe Beta 0.4.1'
+author: 'Avi from Koii'
+description: 'Welcome to the Koii-tac-toe Beta Task. This task runs a dedicated Koii-tac-toe server. This task does not produce rewards.'
 repositoryUrl: 'https://github.com/koii-network/task-template' # Replace with your own repo URL
 imageUrl: 'imageUrl'
 infoUrl: 'infoUrl'

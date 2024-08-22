@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./client.js"></script>
+</head>
+<body>
+    <h1 style="margin-top: 5%;">Welcome to Koii-Tac-Toe</h1>
+
+    <img id="home-bg2" src="assets/home-bg2.svg">
+    <img id="home-bg3"src="assets/home-bg3.svg">
+
+    <div class="center" id="menu">
+        <button class="gameButton" id="createGame" disabled style="margin-left: auto;">Create Game</button>
+        <div><p>OR</p></div>
+        <input type="text" name="" id="uniqueRoomID" placeholder="Enter Room ID"/>
+        <button class="gameButton" id="joinGame" disabled>Join Game</button>
+        <!-- <button class="gameButton" id="login" onclick="login()">Login</button> -->
+        <button class="gameButton" id="login">Login</button>
+    </div>
+
+    
+    <div id="gameplay">
+        <div id="lobbyArea" class="center" >
+    
+        </div>
+    
+        <div id="board" style="display: none;">
+            <button class="square" id="square0"></button>
+            <button class="square" id="square1"></button>
+            <button class="square" id="square2"></button>
+            <button class="square" id="square3"></button>
+            <button class="square" id="square4"></button>
+            <button class="square" id="square5"></button>
+            <button class="square" id="square6"></button>
+            <button class="square" id="square7"></button>
+            <button class="square" id="square8"></button>
+        </div>
+        
+        <br>
+        <div id="winnerArea" class=""display-4>
+
+        </div>
+    </div>
+
+</body>
+
+<!-- <script type="text/javascript" src="https://auth.magic.link/sdk/extension/solana"></script> -->
+
+<!-- <script defer>
+const magic = new window.Magic("pk_live_F858F8DB0A78CB24");
+</script> -->
+</html>

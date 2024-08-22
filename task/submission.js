@@ -47,7 +47,8 @@ class Submission {
    */
   async fetchSubmission(round) {
     console.log(`FETCH SUBMISSION FOR ROUND ${round}`);
-    const value = await namespaceWrapper.storeGet('value');
+    const value = await namespaceWrapper.storeGet('turnLog');
+    console.log(`SUBMISSION OBJECT ${value}`);
     return value;
   }
 }

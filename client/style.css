@@ -1,0 +1,108 @@
+body {  
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    background-color: #373570;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+#lobbyArea {
+    color: white;
+}
+
+
+#board {
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    height: 375px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.square {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #D3D3D3;
+    background-color: #CDCCFF;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square:hover {
+    background-color: #FFFFE0;
+}
+
+#restartButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 150px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    font-size: 18px;
+}
+
+#restartButton:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.gameButton {
+    margin: auto;
+    /* width: 50%; */
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    background-color: white;
+    /* padding: 10px; */
+}
+
+.gameButton:hover {
+    border-color: rgb(253, 255, 223);;
+    background-color: rgb(253, 255, 223);
+}
+
+input {
+    border:solid;
+    border-color: white;
+    border-radius: 20px;
+    border-width: 5px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#home-bg2 {
+    z-index: -1;
+    position: absolute;
+    top: -20%;
+}
+
+#home-bg3 {
+    z-index: -1;
+    position: absolute;
+    /* float: right; */
+    /* margin-left: auto; */
+    left: 75%;
+}
